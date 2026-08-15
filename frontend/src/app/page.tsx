@@ -8,17 +8,13 @@ export const metadata: Metadata = {
 
 export default function LandingPage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center gap-8 p-8">
+    <main className="flex min-h-screen flex-col items-center justify-center gap-8 p-8 bg-[#a1b5d1]">
       <div className="space-y-4 text-center">
-        <h1 className="text-4xl font-bold tracking-tight">
+        <h1 className="text-4xl font-bold tracking-tight text-[#10283D]">
           {process.env.NEXT_PUBLIC_APP_NAME ?? 'App'}
         </h1>
-        <p className="max-w-md text-lg text-zinc-600 dark:text-zinc-400">
-          Your app description goes here. Edit{' '}
-          <code className="rounded bg-zinc-100 px-1 py-0.5 font-mono text-sm dark:bg-zinc-800">
-            src/app/page.tsx
-          </code>{' '}
-          to get started.
+        <p className="max-w-md text-lg text-[#10283D]">
+          A simple place to capture and organize your notes, so nothing you&apos;re thinking gets lost.
         </p>
       </div>
       <div className="flex gap-4">
