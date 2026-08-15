@@ -13,7 +13,7 @@ export default function LandingPage() {
         <h1 className="text-4xl font-bold tracking-tight text-[#10283D]">
           {process.env.NEXT_PUBLIC_APP_NAME ?? 'App'}
         </h1>
-        <p className="m-auto max-w-md text-lg text-[#10283D]">
+        <p className="max-w-md text-lg text-[#10283D]">
           A simple place to capture and organize your notes, so nothing you&apos;re thinking gets lost.
         </p>
       </div>
