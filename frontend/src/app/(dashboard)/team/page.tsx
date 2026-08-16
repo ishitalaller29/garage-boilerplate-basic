@@ -19,7 +19,7 @@ const teamMembers: TeamMember[] = [
     id: 'pm',
     name: 'Jason Sun',
     role: 'PM',
-    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
+    bio: 'Hi there! I am currently in my final year in my Bachelors of IT at RMIT. My interests mainly include sports such as Volleyball and Motorsports (Motorcycles specifically) and I am also very very rich. (I have hundreds of dollars to my name)',
     imageAlt: 'Photo of Jason Sun, Project Manager',
   },
   {
